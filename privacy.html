@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Reality Check AI</title>
+  <meta name="description" content="Privacy Policy for Reality Check AI.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #08090d;
+      --panel: #11131a;
+      --text: #f7f7fb;
+      --muted: #a7abb7;
+      --line: #252936;
+      --accent: #8fa2ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 20% 0%, rgba(143, 162, 255, 0.18), transparent 32rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    header {
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 32px;
+    }
+
+    a { color: var(--accent); }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 6vw, 4rem);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin: 36px 0 12px;
+      font-size: 1.25rem;
+      line-height: 1.25;
+    }
+
+    p, li { color: var(--muted); }
+    ul { padding-left: 1.2rem; }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      background: color-mix(in srgb, var(--panel) 88%, transparent);
+      border-radius: 16px;
+      padding: 18px 20px;
+      margin: 24px 0;
+    }
+
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 22px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      margin-top: 44px;
+      padding-top: 20px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Reality Check AI</p>
+      <h1>Privacy Policy</h1>
+      <p>Effective date: June 1, 2026</p>
+      <nav aria-label="Legal pages">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Service</a>
+      </nav>
+    </header>
+
+    <section class="card">
+      <p>
+        Reality Check AI helps you think through confusing messages, relationship situations,
+        screenshots, and possible red flags. We designed the app around privacy: your checks are
+        tied to your account, protected by Supabase authentication, and are not sold to advertisers.
+      </p>
+    </section>
+
+    <h2>1. Information We Collect</h2>
+    <p>We collect information you provide or generate while using the app, including:</p>
+    <ul>
+      <li>Account information, such as your Apple Sign In identifier, email address if Apple provides it, and display name.</li>
+      <li>Onboarding answers, AI tone preferences, and app settings.</li>
+      <li>Reality check content, including text you type, pasted messages, uploaded screenshots, AI results, follow-up questions, and check history.</li>
+      <li>Subscription status and purchase metadata from RevenueCat and Apple. We do not receive your full payment card details.</li>
+      <li>Technical information needed to run the service, such as request timestamps, error logs, device/app metadata, and usage limits.</li>
+    </ul>
+
+    <h2>2. How We Use Information</h2>
+    <p>We use your information to:</p>
+    <ul>
+      <li>Provide AI analysis, follow-up answers, saved history, and personalization.</li>
+      <li>Authenticate your account and keep your checks connected to you.</li>
+      <li>Manage subscriptions, restore purchases, and enforce paid access.</li>
+      <li>Improve reliability, debug errors, prevent abuse, and keep the app secure.</li>
+      <li>Comply with legal obligations and respond to support requests.</li>
+    </ul>
+
+    <h2>3. AI Processing</h2>
+    <p>
+      When you ask for a reality check, the text and screenshots you provide may be sent to AI
+      service providers so they can generate the response. Do not upload content you do not have
+      permission to share or content that includes highly sensitive information you do not want
+      processed by an AI service.
+    </p>
+
+    <h2>4. Screenshots and Sensitive Content</h2>
+    <p>
+      Screenshots may contain names, faces, phone numbers, message contents, locations, or other
+      personal information. You are responsible for deciding what to upload. If you upload someone
+      else's information, you confirm you have the right to do so.
+    </p>
+
+    <h2>5. Sharing and Service Providers</h2>
+    <p>We do not sell your personal information. We may share information with service providers that help us operate the app, including:</p>
+    <ul>
+      <li>Supabase for authentication, database storage, and edge functions.</li>
+      <li>RevenueCat and Apple for subscriptions, purchase validation, and restore purchases.</li>
+      <li>AI providers for generating responses to your checks and follow-up questions.</li>
+      <li>Analytics, logging, or hosting providers used to monitor app reliability and security.</li>
+    </ul>
+
+    <h2>6. Data Retention</h2>
+    <p>
+      We keep account data and check history while your account is active, unless you delete history
+      or delete your account. Some operational records may be retained for a limited period for
+      security, debugging, legal, tax, or compliance reasons.
+    </p>
+
+    <h2>7. Account Deletion</h2>
+    <p>
+      You can delete your account from the Settings screen. Deleting your account removes your
+      Supabase Auth account and app data connected to it, including profile data, onboarding answers,
+      checks, AI request records, and the subscription mirror stored in our database.
+    </p>
+    <p>
+      Deleting your account does not cancel an active Apple App Store subscription. You must cancel
+      subscriptions through Apple subscriptions on your device or Apple account.
+    </p>
+
+    <h2>8. Your Choices and Rights</h2>
+    <p>
+      Depending on where you live, you may have rights to access, correct, delete, or export your
+      personal information, or object to certain processing. You can also delete check history or
+      delete your account inside the app.
+    </p>
+
+    <h2>9. Security</h2>
+    <p>
+      We use reasonable administrative, technical, and organizational safeguards. No online service
+      can guarantee perfect security, so please avoid submitting information that would put you or
+      someone else at risk if exposed.
+    </p>
+
+    <h2>10. Children</h2>
+    <p>
+      Reality Check AI is not intended for children under 13. If you believe a child has provided us
+      personal information, contact us so we can take appropriate action.
+    </p>
+
+    <h2>11. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. If we make material changes, we will
+      update the effective date and may provide notice in the app or on this page.
+    </p>
+
+    <h2>12. Contact</h2>
+    <p>
+      Questions or requests can be sent to <a href="mailto:support@realitycheck.app">support@realitycheck.app</a>.
+    </p>
+
+    <footer>
+      <p>This page is provided for product transparency and should be reviewed by a qualified legal professional before launch.</p>
+    </footer>
+  </main>
+</body>
+</html>
